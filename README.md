@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ```
 git clone git@github.com:ramrod433/Leaderboard.git
-cd leaderBoard
+cd Leaderboard
 ```
 
 - Open a index.html file with your code editor of your choice and/or a browser of your choice.
