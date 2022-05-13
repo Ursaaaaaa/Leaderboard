@@ -65,11 +65,11 @@ main {
 }
 
 #scores-table ul li:nth-child(odd) {
-  background: rgba(255, 228, 196, 0.836);
+  background: rgba(255, 228, 196, 0.835);
 }
 
 #scores-table ul li:nth-child(even) {
-  background: rgba(227, 227, 227, 0.836);
+  background: rgba(227, 227, 227, 0.835);
 }
 
 form {
