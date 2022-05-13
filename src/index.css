@@ -45,6 +45,7 @@ main {
   width: 80px;
   margin-top: 20px;
   box-shadow: 3px 3px #000;
+  background: rgb(224, 74, 74);
 }
 
 #scores-table {
@@ -94,4 +95,5 @@ input {
   padding: 5px;
   border: 1px solid black;
   box-shadow: 3px 3px #000;
+  background: rgb(224, 74, 74);
 }
