@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: black;
   font-size: 16px;
   font-weight: 400;
   background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+body::after {
+  content: "";
+  background: url(./apex-legends-logo-font.png) no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 45px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: 90%;
 }
 
 header {
@@ -12,9 +30,9 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 #recent-scores-header {
@@ -27,17 +45,31 @@ main {
   width: 80px;
   margin-top: 20px;
   box-shadow: 3px 3px #000;
+  background: rgb(224, 74, 74);
 }
 
 #scores-table {
   border: 2px solid rgb(101, 100, 100);
 }
 
+.scores {
+  margin: 0;
+  padding: 0;
+}
+
 #scores-table ul li {
   list-style: none;
-  padding: 5px 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+  text-transform: capitalize;
+}
+
+#scores-table ul li:nth-child(odd) {
+  background: rgba(255, 228, 196, 0.835);
+}
+
+#scores-table ul li:nth-child(even) {
+  background: rgba(227, 227, 227, 0.835);
 }
 
 form {
@@ -50,6 +82,10 @@ form {
   font-style: italic;
 }
 
+input {
+  height: 25px;
+}
+
 #submit {
   display: inline-block;
   position: relative;
@@ -59,4 +95,5 @@ form {
   padding: 5px;
   border: 1px solid black;
   box-shadow: 3px 3px #000;
+  background: rgb(224, 74, 74);
 }

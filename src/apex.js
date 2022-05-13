@@ -19,7 +19,7 @@ const displayScore = () => {
       scores.innerHTML = '';
       if (scoreList.length > 0) {
         scoreList.forEach((score) => {
-          const scoresTemp = `<li><p>${score.user}: ${score.score}</p></li>`;
+          const scoresTemp = `<li><p>   ${score.user}  :   ${score.score}</p></li>`;
           scores.innerHTML += scoresTemp;
         });
       }
