@@ -6,6 +6,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   background-color: bisque;
+  margin: 0;
+  padding: 0;
 }
 
 body::after {
@@ -28,9 +30,9 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 #recent-scores-header {
@@ -47,13 +49,27 @@ main {
 
 #scores-table {
   border: 2px solid rgb(101, 100, 100);
+
+}
+
+.scores {
+  margin: 0;
+  padding: 0;
 }
 
 #scores-table ul li {
   list-style: none;
-  padding: 5px 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+  text-transform: capitalize;
+}
+
+#scores-table ul li:nth-child(odd) {
+  background: rgba(255, 228, 196, 0.836);
+}
+
+#scores-table ul li:nth-child(even) {
+  background: rgba(227, 227, 227, 0.836);
 }
 
 form {
@@ -64,6 +80,10 @@ form {
 
 ::placeholder {
   font-style: italic;
+}
+
+input {
+  height: 30px;
 }
 
 #submit {

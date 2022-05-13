@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-Visit [here](https://github.com/ramrod433/Leaderboard) to view
+Visit [here](https://ramrod433.github.io/Leaderboard/dist/index.html) to view
 
 ## Getting Started
 
