@@ -1,8 +1,22 @@
 body {
   font-family: 'Lato', sans-serif;
+  color: black;
   font-size: 16px;
   font-weight: 400;
   background-color: bisque;
+}
+
+body::after {
+  content: "";
+  background: url(./apex-legends-logo-font.png) no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 40px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: 90%;
 }
 
 header {
