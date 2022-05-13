@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   font-size: 16px;
   font-weight: 400;
@@ -11,7 +13,7 @@ body::after {
   background: url(./apex-legends-logo-font.png) no-repeat;
   opacity: 0.4;
   top: 0;
-  left: 40px;
+  left: 45px;
   bottom: 0;
   right: 0;
   position: absolute;
